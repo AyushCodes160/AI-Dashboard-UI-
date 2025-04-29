@@ -14,6 +14,7 @@ export default function AvatarCard({ name, image, onEdit }: AvatarCardProps) {
           src={image}
           alt={`${name}'s avatar`}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
       <div className="p-4">
